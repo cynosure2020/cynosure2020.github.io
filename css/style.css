@@ -1624,8 +1624,15 @@ h3 {
 }
 
 .slider_area .single_slider .slider_text img{
-  width:900px;
-  height: 500px;
+  width:750px;
+  height: 400px;
+}
+
+@media (max-width: 767px) {
+  .slider_area .single_slider .slider_text img{
+    width:200px;
+    height: 250px;
+  }
 }
 /* line 86, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text p {
