@@ -1577,7 +1577,7 @@ h3 {
 .slider_area .single_slider .slider_text span {
   font-size: 2vw;
   font-weight: 400;
-  color: #FF4533;
+  color: #FF1600;
   font-family: "Anton", sans-serif;
 }
 
@@ -5784,7 +5784,6 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
-
 #demo{font-size: 35px; color: red; 
 }
 /*# sourceMappingURL=style.css.map */
