@@ -198,7 +198,7 @@ input[type='checkbox']:checked {
 <div class="fish" id="fish"></div>
 <div class="fish" id="fish2"></div>
 
-<form id="waterform" method="post" action='https://cynosurehrc.herokuapp.com/home/submitit'>
+<form id="waterform" method="post" onsubmit="formsubmit()" action='https://cynosurehrc.herokuapp.com/home/submitit'>
 
 <div class="formgroup" id="name-form">
     <label for="name">Your name*</label>
@@ -230,7 +230,7 @@ input[type='checkbox']:checked {
 
 </div>
 
-	<input type="submit" value="Register" />
+	<input type="submit" value="Register"  />
 </form>
 </div>
  <!-- footer_start  -->
@@ -299,4 +299,9 @@ if($('#email').val() == "") {
 		
 });
 
+</script>
+<script>
+    function formsubmit(){
+        alert("Registered successfully");
+    }
 </script>
